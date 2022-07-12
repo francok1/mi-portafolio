@@ -1,3 +1,5 @@
+<script>console.error();
+console.log();</script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,48 +10,99 @@
 
 </head>
 <body>
-    <section id="encabezado">
-    <link rel="stylesheet" href="diseño.css"/>
-    <h1 id = "h1">Mi Portafolio </h2>
-    <h2 id = "h2">Franco Pinochet</h1>
-        <div Align="right">
-            <a href="">Perfil</a>
-            <a href="">Conocimiento</a>
-            <a href="">CV</a>
+    <header id="principio">
+        <div class="container">
+            <p class="logo">PORTAFOLIO</p>
+            <nav>
+                <a href="#sobreMI">About</a><!--hacer que llegue a la informacion personal como nuemro email-->
+                <a href="#Conocimiento">Conocimiento en lenguajes</a>
+                <a href="#listo-para-llamar">curriculum</a>
+            
+
+            </nav>
+
         </div>
-    </section>
-    <hr>
-    <section> 
-        <div Align="center">
-        <h1>Perfil</h1>
+
+    </header>
+    <section id="hero">
+        <h1>Franco Pinochet </h1>
         
-        </div>
-        <table Align="right">
-            
-            Hola, soy Franco Pinochet Programador en desarrollo web enfocado en aprender muchas cosas nuevas
-            
-        </table>
+            <form action="https://docs.google.com/document/d/1JWwz1hAIBWUxkSxnB9fyOsUWa-4oGsO8/edit?usp=sharing&ouid=106964348430489165077&rtpof=true&sd=true"> 
+                <button>Curriculum</button>
+            </form>       
 
     </section>
-    <a target="_blank" href=""></a> <!--target es para mandar el link clickeado para una nueva pestaña-->
-    <img src="" height="alto" width="ancho" /> <!--manipular el alto y ancho -->
-    <form action="/descarga" method="post">
-        <label for="nombre">nombre</label>
-        <input id="nombre" type="checkbox" name="nombre" placeholder="nombre"/>
-        <button type="button" target="_blank" href="/formulario">enviar</button>
-    </form>
-    <ul><!--enumerar sin orden-->
-        <li style="list-style: lower-roman;">
 
-        </li>
-    </ul>
-    <ol><!--enumerar en orden-->
-        <li>
+    <section id="sobreMI">
+        
 
-        </li>
-    </ol>
+        </div>
+        <div class="container">
+            <div class="img-container"></div>
+            <h2>Un Poco <span class="color-acento">de mi</span></h2>
+            <br>
+            <p>un poco sobre mi(escribir de mi juasjuas)</p>
+        </div>    
+    </section>
+    
+    <section id="Conocimiento">
+        <div class="container">
+            <h2>Conocimiento</h2>
+
+            <div class="programas">
+                <div class="carta">
+                    <h3> 
+                        html 
+
+                    </h3>
+                    <p>nivel de htmal intermedio</p>
+                    <button>+ info</button>
+                </div>
+                <div class="carta">
+                    <h3>
+                        php
+                    </h3>
+                    <p>intermedio</p>
+                    <button>+ info</button>
+                </div>
+                <div class="carta">
+                    <h3>
+                        css
+                    </h3>
+                    <p>intermedio</p>
+                    <button>+ info</button>
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <section id="cualidades">
+        <div class="container">
+            <ul>
+                <li>Aprender Rapido</li>
+                <li>Paciente</li>
+                <li>flexible ante horarios</li>
+                <li>Real Hasta la muerte oiete bb</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="llamar">
+
+        <h2>listo para contratar?</h2>
+        <button>click aqui para llamar</button> <!--hacer que se descargue el curriculum-->
+    </section>
+
     <footer>
-        <a href="#h1">ir al comienzo</a> 
+        <div class="container">
+            
+            <footer>
+                <a href="#principio">ir al comienzo</a> 
+            </footer>
+            <p>&copy; MiPortafolioactualizado2022</p>
+        </div>
     </footer>
+
 </body>
 </html>
